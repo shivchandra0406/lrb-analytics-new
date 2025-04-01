@@ -8,7 +8,7 @@ const connectDB = async () => {
   
   try {
     await mongoose.connect(Config.getConfig().mongoUri, {
-      maxPoolSize: 10, // ✅ Connection pooling
+      maxPoolSize: 5000, // ✅ Connection pooling
     });
     console.log("MongoDB Connected...");
   } catch (err) {
