@@ -1,0 +1,14 @@
+{
+  "name": "lrb_analytics_fb",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "func start",
+    "test": "echo \"No tests yet...\""
+  },
+  "dependencies": {
+    "@azure/functions": "^4.0.0",
+    "mongoose": "^8.13.1"
+  },
+  "main": "src/{index.js,functions/*.js}"
+}
